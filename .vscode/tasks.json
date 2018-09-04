@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",        
+    "tasks":[
+        {        
+            "command": "g++",
+            "type": "shell",
+            "args": ["-02", "-g", "cpptest.cpp"],
+            "presentation": {
+                "reveal": "always",
+            },
+            
+        }
+    ]
+}
